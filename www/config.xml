@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.radio.temp"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <name>Radio Temp</name>
+
+    <description>
+        A radio app for streaming radio and news from kenyas leading hit radio station
+    </description>
+
+    <author href="https://kwetudesign.co.ke" email="kwetudesign@gmail.com">
+        Antony Muthii 
+    </author>
+    
+    <icon src="icon.png" />
+
+    <access origin="*" />
+    
+    
+    <gap:splash src="splash.png" />
+    <gap:platform name="ios"/>
+    <gap:platform name="android" />
+	<gap:platform name="winphone" />
+
+    <!--<gap:plugin name="org.apache.cordova.network-information" version="0.2.12" />
+    <gap:plugin name="cordova-plugin-admob" source="npm" />-->
+    <preference name="permissions" value="none"/>
+    <preference name="android-build-tool" value="gradle" /> 
+    <gap:plugin name="cordova-plugin-admobpro" source="npm" />
+
+    
+    
+
+</widget>
